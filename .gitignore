@@ -1,5 +1,14 @@
+# Virtual Environment
+venv/
+bmac/
+bruno/
+
+# Data files - Prevents uploading sensitive student data
+*.csv
+
+# Python cache files
 __pycache__/
-.DS_Store
 *.pyc
-.venv/
-.env
+
+# macOS system files
+.DS_Store
